@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getCourses } from "../api/courseApi";
+import CourseList from "./CourseList";
+
 
 function CoursesPage () {
     const [ courses, setCourses ] = useState([])
@@ -13,7 +15,7 @@ function CoursesPage () {
     return (
       <>
         <h2>Courses</h2>
-        <table className="table">
+        {/* <table className="table">
           <thead>
             <tr>
               <th>Title</th>
@@ -32,9 +34,11 @@ function CoursesPage () {
               );
             })}
           </tbody>
-        </table>
+        </table> */}
+        <CourseList courses={courses}/>
       </>
     );
+  
   }
 
 
