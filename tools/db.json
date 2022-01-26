@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Securing React Apps with Auth0",
       "slug": "react-auth0-authentication-security",
-      "authorId": 2,
+      "authorId": 1,
       "category": "JavaScript"
     },
     {
@@ -72,11 +72,11 @@
     },
     {
       "id": 11,
-      "slug": "the-chills",
-      "title": "The Chills",
-      "authorId": 2,
-      "category": "Flying Nun",
-      "createdAt": 1643210797687
+      "slug": "sea-urchins",
+      "title": "Sea Urchins",
+      "authorId": 1,
+      "category": "Sarah Records",
+      "createdAt": 1643227656658
     }
   ],
   "authors": [
