@@ -6,12 +6,14 @@ import { Link } from 'react-router-dom';
 
 function CoursesPage () {
     const [ courses, setCourses ] = useState([])
+    
 
     useEffect(() => {
         getCourses().then(_courses => setCourses(_courses));
+       
       },[]);
-    
- 
+
+  
   
     return (
       <>
@@ -39,7 +41,7 @@ function CoursesPage () {
             })}
           </tbody>
         </table> */}
-        <CourseList courses={courses}/>
+        <CourseList courses={courses} />
       </>
     );
   
