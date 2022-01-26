@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import courseStore from "../stores/courseStore";
 import CourseList from "./CourseList";
 import { Link } from 'react-router-dom';
-import { loadCourses } from "../actions/courseActions";
+import { loadCourses, deleteCourse } from "../actions/courseActions";
 
 
 function CoursesPage () {
@@ -47,7 +47,7 @@ function onChange (){
             })}
           </tbody>
         </table> */}
-        <CourseList courses={courses} />
+        <CourseList courses={courses} deleteCourse={deleteCourse}/>
       </>
     );
   

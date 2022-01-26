@@ -71,4 +71,4 @@ const ManageCoursePage = props => {
   );
 };
 
-export default ManageCoursePage;
+export default ManageCoursePage;  
